@@ -11,7 +11,7 @@ Dirty-Pipe is a vulnerability which allows us to overwrite files even if they ha
 1. First of all, we must clone the repository where the exploit is located. 
 
 ```bash
-git clone https://github.com/nekoox/dirty-pipe.git
+git clone https://github.com/Nekoox/dirty-pipe.git
 ```
 
 2. Once cloned, we enter the directory and execute the exploit with the following syntax.
